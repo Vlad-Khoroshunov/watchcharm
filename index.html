@@ -60,12 +60,12 @@
             <nav class="mobile-menu">
                 <button class="close-btn" type="button">x</button>
                 <ul class="mobile-nav-list">
-                    <li class="mobile-nav-item current"><a class="header-nav-link" href="#">Home</a></li>
+                    <li class="mobile-nav-item current"><a class="header-nav-link" href="#welcome">Home</a></li>
                     <li class="mobile-nav-item"><a class="mobile-nav-link" href="#about">About Us</a></li>
                     <li class="mobile-nav-item"><a class="mobile-nav-link" href="#catalog">Catalog</a></li>
                     <li class="mobile-nav-item"><a class="mobile-nav-link" href="#sale">Sale</a></li>
                     <li class="mobile-nav-item"><a class="mobile-nav-link" href="#reviews">Reviews</a></li>
-                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="#сontact">Contact Us</a></li>
+                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="#contact">Contact Us</a></li>
                 </ul>
                 <ul class="mobile-social-list">
                     <li class="mobile-social-item">
@@ -100,7 +100,7 @@
         </div>
     </header>
     <main>
-        <section class="welcome">
+        <section class="welcome" id="welcome">
             <div class="container welcome-container">
                 <div class="welcome-top">
                     <div class="welcome-text">
@@ -124,7 +124,7 @@
                 <div class="welcome-img-container"></div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container about-container">
                 <div class="about-info">
                     <h2 class="about-title">About Us</h2>
@@ -139,6 +139,87 @@
                 <div class="about-img"></div>
             </div>
         </section>
+        <section class="catalog" id="catalog">
+            <div class="container catalog-container">
+                <h2 class="catalog-title">Catalog</h2>
+                <ul class="catalog-list">
+                    <li class="catalog-item">
+                        <div class="catalog-item-box">
+                            <img   
+                                class="catalog-img"
+                                srcset="    ./images/catalog/7-pro.png 1x,
+                                            ./images/catalog/7-pro@2x.png 2x" 
+                                src="./images/catalog/7-pro.png" alt="">
+                            <h3 class="catalog-item-title">Garmin Fenix 7X Pro Sapphire Solar</h3>
+                            <p class="catalog-item-price">€500</p>
+                        </div>
+                    </li>
+                    <li class="catalog-item">
+                        <div class="catalog-item-box">
+                            <img   
+                                class="catalog-img" 
+                                srcset="    ./images/catalog/athlete.png 1x,
+                                            ./images/catalog/athlete@2x.png 2x "
+                                src="./images/catalog/athlete.png" alt="">
+                            <h3 class="catalog-item-title">Garmin Marq Athlete</h3>
+                            <p class="catalog-item-price">€450</p>
+                        </div>
+                    </li>
+                    <li class="catalog-item">
+                        <div class="catalog-item-box">
+                            <img   
+                                class="catalog-img"
+                                srcset="    ./images/catalog/mk1.png 1x,
+                                            ./images/catalog/mk1@2x.png 2x" 
+                                src="./images/catalog/mk1.png" alt="">
+                            <h3 class="catalog-item-title">Garmin Descent MK1</h3>
+                            <p class="catalog-item-price">€680</p>
+                        </div>
+                    </li>
+                    <li class="catalog-item">
+                        <div class="catalog-item-box">
+                            <img   
+                                class="catalog-img"
+                                srcset="    ./images/catalog/d2.png 1x,
+                                            ./images/catalog/d2@2x.png 2x "
+                                src="./images/catalog/d2.png" alt="">
+                            <h3 class="catalog-item-title">Garmin D2 Delta PX</h3>
+                            <p class="catalog-item-price">€380</p>
+                        </div>
+                    </li>
+                    <li class="catalog-item">
+                        <div class="catalog-item-box">
+                            <img   
+                                class="catalog-img"
+                                srcset="    ./images/catalog/6-pro.png 1x,
+                                            ./images/catalog/6-pro@2x.png 2x" 
+                                src="./images/catalog/6-pro.png" alt="">
+                            <h3 class="catalog-item-title">Garmin Fenix 6 Pro Solar</h3>
+                            <p class="catalog-item-price">€400</p>
+                        </div>
+                    </li>
+                    <li class="catalog-item">
+                        <div class="catalog-item-box">
+                            <img   
+                                class="catalog-img"
+                                srcset="    ./images/catalog/s42.png 1x,
+                                            ./images/catalog/s42@2x.png 2x" 
+                                src="./images/catalog/s42.png" alt="">
+                            <h3 class="catalog-item-title">Tube Watch S42 Date Steel With Black Case</h3>
+                            <p class="catalog-item-price">€395</p>
+                        </div>
+                    </li>
+                </ul>
+                <button class="catalog-btn button" type="button" id="show-more-btn">Show more</button>
+            </div>
+        </section>
+        <section class="promo-baner">
+            <div class="promo-container container">
+                <h2 class="promo-title">Choose <span>your story</span>, making every moment unique. Time is your style, and we reveal it.</h2>
+                <button class="promo-btn button">Contact Us</button>
+            </div>
+        </section>
     </main>
+    <script src="./js/show-more-btn.js"></script>
 </body>
 </html>
