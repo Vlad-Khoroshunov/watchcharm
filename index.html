@@ -18,12 +18,12 @@
         <div class="header-container container">
             <a href="./index.html" class="header-logo">watchcharm</a>
             <ul class="header-nav-list">
-                <li class="header-nav-item current"><a class="header-nav-link" href="#">Home</a></li>
+                <li class="header-nav-item current"><a class="header-nav-link " href="#">Home</a></li>
                 <li class="header-nav-item"><a class="header-nav-link" href="#about">About Us</a></li>
                 <li class="header-nav-item"><a class="header-nav-link" href="#catalog">Catalog</a></li>
                 <li class="header-nav-item"><a class="header-nav-link" href="#sale">Sale</a></li>
-                <li class="header-nav-item"><a class="header-nav-link" href="#reviews">Reviews</a></li>
-                <li class="header-nav-item"><a class="header-nav-link" href="#сontact">Contact Us</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="#review">Reviews</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="#contact">Contact Us</a></li>
             </ul>
             <ul class="social-list">
                 <li class="social-item">
@@ -59,43 +59,45 @@
             </button>
             <nav class="mobile-menu">
                 <button class="close-btn" type="button">x</button>
-                <ul class="mobile-nav-list">
-                    <li class="mobile-nav-item current"><a class="header-nav-link" href="#welcome">Home</a></li>
-                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="#about">About Us</a></li>
-                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="#catalog">Catalog</a></li>
-                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="#sale">Sale</a></li>
-                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="#reviews">Reviews</a></li>
-                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="#contact">Contact Us</a></li>
-                </ul>
-                <ul class="mobile-social-list">
-                    <li class="mobile-social-item">
-                        <a href="https://www.facebook.com" target="_blank" aria-label="twitter-link">
-                            <div class="social-box">
-                                <svg class="mobile-social-icons" width="20" height="20">
-                                    <use href="./images/icons/socials.svg#facebook"></use>
-                                </svg>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="mobile-social-item">
-                        <a href="https://www.instagram.com" target="_blank" aria-label="twitter-link">
-                            <div class="social-box">
-                                <svg class="mobile-social-icons" width="20" height="20">
-                                    <use href="./images/icons/socials.svg#instagram"></use>
-                                </svg>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="mobile-social-item">
-                        <a href="https://www.youtube.com" target="_blank" aria-label="twitter-link">
-                            <div class="social-box">
-                                <svg class="mobile-social-icons" width="20" height="20">
-                                    <use href="./images/icons/socials.svg#youtube"></use>
-                                </svg>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+                <div class="mm-container">
+                    <ul class="mobile-nav-list">
+                        <li class="mobile-nav-item"><a class="mobile-nav-link  current" href="#welcome">Home</a></li>
+                        <li class="mobile-nav-item"><a class="mobile-nav-link" href="#about">About Us</a></li>
+                        <li class="mobile-nav-item"><a class="mobile-nav-link" href="#catalog">Catalog</a></li>
+                        <li class="mobile-nav-item"><a class="mobile-nav-link" href="#sale">Sale</a></li>
+                        <li class="mobile-nav-item"><a class="mobile-nav-link" href="#reviews">Reviews</a></li>
+                        <li class="mobile-nav-item"><a class="mobile-nav-link" href="#contact">Contact Us</a></li>
+                    </ul>
+                    <ul class="mobile-social-list">
+                        <li class="mobile-social-item">
+                            <a href="https://www.facebook.com" target="_blank" aria-label="twitter-link">
+                                <div class="social-box">
+                                    <svg class="mobile-social-icons" width="20" height="20">
+                                        <use href="./images/icons/socials.svg#facebook"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="mobile-social-item">
+                            <a href="https://www.instagram.com" target="_blank" aria-label="twitter-link">
+                                <div class="social-box">
+                                    <svg class="mobile-social-icons" width="20" height="20">
+                                        <use href="./images/icons/socials.svg#instagram"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="mobile-social-item">
+                            <a href="https://www.youtube.com" target="_blank" aria-label="twitter-link">
+                                <div class="social-box">
+                                    <svg class="mobile-social-icons" width="20" height="20">
+                                        <use href="./images/icons/socials.svg#youtube"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -134,7 +136,7 @@
                     <p class="about-text">Welcome to our premium watch collection, where luxury and style meet functionality and precision. Our selection of
                     timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring that you'll always have a reliable
                     and stylish accessory on your wrist.</p>
-                    <button class="about-btn">View catalog</button>
+                    <a href="#catalog" class="about-btn">View catalog</a>
                 </div>
                 <div class="about-img"></div>
             </div>
@@ -216,7 +218,7 @@
         <section class="promo-baner">
             <div class="promo-container container">
                 <h2 class="promo-title">Choose <span>your story</span>, making every moment unique. Time is your style, and we reveal it.</h2>
-                <button class="promo-btn button">Contact Us</button>
+                <a href="#contact" class="promo-btn button">Contact Us</a>
             </div>
         </section>
         <section class="sale" id="sale">
@@ -295,7 +297,7 @@
                 </div>
             </div>
         </section>
-        <section class="review">
+        <section class="review" id="review">
             <div class="container review-container">
                 <h2 class="review-title">Reviews</h2>
                 <ul class="review-list">
@@ -344,8 +346,91 @@
                 </ul>
             </div>
         </section>
+        <section class="contact" id="contact">
+            <div class="container contact-container">
+                <h2 class="contact-title">Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-box">
+                        <p class="contact-text">
+                            Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.
+                        </p>
+                        <ul class="contact-list">
+                            <li class="contact-item"><input class="contact-input" type="text" placeholder="Name"></li>
+                            <li class="contact-item"><input class="contact-input" type="email" placeholder="Email"></li>
+                            <li class="contact-item"><input class="contact-input" type="tel" placeholder="+380"></li>
+                            <li class="contact-item"><textarea class="contact-textarea"  placeholder="Comment"></textarea></li>
+                        </ul>
+                        <button class="contact-btn button"  type="button">Send</button>
+                    </div>
+                    <div class="contact-img"></div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <section class="footer" id="footer">
+            <div class="container footer-container">
+                <div class="footer-top">
+                    <div class="footer-socials">
+                        <a href="./index.html" class="footer-logo">watchcharm</a>
+                        <ul class="footer-social-list">
+                            <li class="footer-social-item">
+                                <a href="https://www.facebook.com" target="_blank" aria-label="twitter-link">
+                                    <div class="footer-social-box">
+                                        <svg class="footer-social-icons" width="20" height="20">
+                                            <use href="./images/icons/socials.svg#facebook"></use>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="footer-social-item">
+                                <a href="https://www.instagram.com" target="_blank" aria-label="twitter-link">
+                                    <div class="footer-social-box">
+                                        <svg class="footer-social-icons" width="20" height="20">
+                                            <use href="./images/icons/socials.svg#instagram"></use>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="footer-social-item">
+                                <a href="https://www.youtube.com" target="_blank" aria-label="twitter-link">
+                                    <div class="footer-social-box">
+                                        <svg class="footer-social-icons" width="20" height="20">
+                                            <use href="./images/icons/socials.svg#youtube"></use>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="tel:+380661234526" class="footer-phone">+380 (66) 443-96-26</a>
+                    <p class="footer-text">
+                        Have the time of your life with our watches: where high-class craftsmanship meets impeccable design
+                    </p>
+                </div>
+                <div class="footer-bottom">
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#welcome">Home</a></li>
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#about">About Us</a></li>
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#catalog">Catalog</a></li>
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#sale">Sale</a></li>
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#reviews">Reviews</a></li>
+                        <li class="footer-nav-item"><a class="footer-nav-link" href="#contact">Contact Us</a></li>
+                    </ul>
+                    <address class="footer-address">1678 S. Pioneer Road Salt Lake City UT 84104</address>
+                </div>
+                <div class="footer-copy">
+                    <p class="footer-copy-text">©2023 The Watch Spot. All rights reserved.</p>
+                    <ul class="footer-copy-list">
+                        <li><a class="footer-copy-link" href="#">Terms of Service</a></li>
+                        <li><a class="footer-copy-link" href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
     <script src="./js/show-more-btn.js"></script>
     <script src="./js/sale.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
